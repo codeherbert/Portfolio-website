@@ -1,0 +1,505 @@
+/***** BASE STYLES ******/
+html {
+  height: auto;
+}
+
+body {
+  font-family: 'Rhodium Libre', serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*****GRID*****/
+
+#work {
+  width: 96%;
+  margin: 0 auto;
+}
+
+#about {
+  height: auto;
+  width: 100%;
+}
+
+#contact {
+  height: 420px;
+  width: 100%;
+}
+
+.full-width {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.third-width {
+  width: 33.33%;
+  float: left;
+}
+
+/*****HEADER*****/
+
+#top-div {
+  background: url(../img/laptop-hero-image.jpg) center no-repeat;
+  background-size: cover;
+  color: #006666;
+  height: 800px;
+}
+
+header h1, h2 {
+  font-family: 'Rationale', sans-serif;
+  margin: 0px auto;
+  text-align: center;
+}
+
+header h1 {
+  color:#006666;
+  font-size: 3.12em;
+  line-height: 45px;
+  padding: 3%;
+}
+
+header h2 {
+  font-size: 1.4em;
+  letter-spacing: 3px;
+  padding: 6%;
+  width: 88%;
+}
+
+nav {
+  display: none;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #009999;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a:not(:first-child) {display: none}
+.topnav a.icon {
+  float: right;
+  display: block;
+  }
+
+.topnav.responsive {position: relative}
+.topnav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+  }
+
+
+/*****WORK*****/
+
+#work {
+  color: #006666;
+}
+
+#work h2 {
+  font-family: 'Rationale', sans-serif;
+  font-size: 3.12em;
+  font-weight: bold;
+  margin-top: 75px;
+}
+
+#work h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#work p {
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+}
+
+.work-img {
+  width: 60%;
+  margin: auto;
+  margin-top: 135px;
+  }
+
+#work .border {
+  border: 1px solid #b7b7b7;
+}
+
+#remove-decor {
+  color: #006666;
+  text-decoration: none;
+}
+
+#holstee-img {
+  width: 50%;
+}
+
+#more-link {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#more-link a {
+  text-decoration: none;
+}
+
+/*****ABOUT*****/
+
+#about {
+  background-color: #006666;
+  padding-bottom: 60px;
+}
+
+#about h2, #about h3, #about p {
+  color: white;
+  text-align: center;
+}
+
+#about p {
+  line-height: 32px;
+  padding: 5%;
+  margin: auto;
+}
+
+#about h2 {
+  font-family: 'Rationale', sans-serif;
+  font-size: 2.5em;
+  padding: 4%;
+  text-align: center;
+}
+
+#about h3 {
+  padding: 0 2% 5% 2%;
+}
+
+#portrait-img {
+  padding-top: 28px;
+  width: 95%;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+/*****CONTACT*****/
+
+#contact {
+  background-color: #009999;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+#contact h2 {
+  font-family: 'Rationale', sans-serif;
+  font-size: 2.5em;
+  padding: 4%;
+}
+
+#contact a {
+  color: white;
+  padding: 5%;
+}
+
+#contact p {
+  text-decoration: none;
+}
+
+#contact ul {
+  list-style: none
+}
+
+#contact ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+/*****COPYRIGHT*****/
+
+#copyright {
+  background: #009999;
+  color: white;
+  margin: -100px auto;
+  text-align: center;
+  clear: both;
+}
+
+/* ========== WORK PAGE ========== */
+
+.main-header {
+  width: 100%;
+}
+
+#header-title-work {
+  font-size: 1.1em;
+  padding: 80px;
+}
+
+.project-unplugged {
+  width: 60%;
+  margin: auto;
+}
+
+.project-lolcat {
+  width: 60%;
+  margin: auto;
+}
+
+.project-map {
+  width: 60%;
+  margin: auto;
+}
+
+#workpage {
+  color: #006666;
+  padding: 17%;
+}
+
+#workpage h4 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.workpage-titles {
+  font-family: 'Rationale', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 80px 0 45px 0;
+  padding: 5%;
+  text-transform: uppercase;
+}
+
+#workpage p {
+  font-size: 1.2em;
+}
+
+#workpage-copyright {
+  background: #009999;
+  color: white;
+  text-align: center;
+}
+
+#workpage-copyright p {
+  padding-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Tablet styles here */
+ 
+  .half-width {
+    width: 48%;
+    padding: 5% 1%;
+    float: left;
+  }
+
+  #work .half-width {
+    height: 350px;
+    margin-bottom: 50px;
+  }
+  
+  #about .half-width {
+    margin: 0 auto;
+  }  
+
+  #header-wrapper {
+    background: url(../img/laptop-hero-image.jpg) center no-repeat;
+    background-size: cover;
+    color: #006666;
+    height: 800px;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  nav {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    background-color: #7576693d;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: inherit;
+    padding: 0;
+    width: 90%;
+  }
+
+  nav ul li {
+    border-bottom: 1px solid black;
+    display: list-item;
+    padding: 19px;
+    text-transform: uppercase;
+  }
+
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    border: none;
+    display: inline-block;
+    padding: 1%;
+  }
+
+  nav ul li a {
+    color: #006666;
+  }
+
+  header h1 {
+    padding-top: 1%;
+  }
+
+  header h2 {
+    padding-top: 1%;
+    width: 80%;
+  }
+
+  #top-div {
+    background: none;
+  }
+
+  .work-img {
+    margin: 20px auto;
+    width: 70%;
+  }
+
+  #work {
+    height: 1600px;
+  }
+
+  #work p {
+    padding-right: 10%;
+    width: 80%;
+  }
+
+  #holstee-img {
+    margin: 0 auto;
+    padding-bottom: 0px;
+  }
+
+  #about {
+    height: 1000px;
+  }
+
+  #about p {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+
+  /* Desktop styles here */
+
+  #header-wrapper {
+    background: url(../img/laptop-hero-image.jpg);
+    background-size: auto;
+  }
+
+  header h1 {
+    padding: 0;
+  }
+
+  header h2 {
+    font-size: 2em;
+  }
+
+  #top-div {
+    padding: 0 20%;
+  }
+
+  #work {
+    height: auto;
+  }
+
+  .work-img {
+    padding-left: 10%;
+    width: 80%;
+  }
+
+  #work p {
+    padding-right: 10%;
+  }
+
+  #about {
+    clear: both;
+  }
+
+  #portrait-img {
+    width: 75%;
+  }
+
+  #about p {
+    padding-right: 10%;
+  }
+
+  #holstee-img {
+    width: 40%;
+    margin: 20px auto;
+    padding-bottom: 0px;
+  }
+
+  /* ========== WORK PAGE ========== */
+
+  #header-title-work h1 {
+    font-size: 5em;
+    line-height: 65px;
+  }
+
+  .project-unplugged {
+    width: 25%;
+  }
+
+  .project-lolcat {
+    width: 25%;
+  }
+
+  .project-map {
+    width: 25%;
+  }
+
+  #workpage {
+    padding-top: 20px;
+    }
+}
