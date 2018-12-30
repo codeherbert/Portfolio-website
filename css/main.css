@@ -31,7 +31,7 @@ img {
 }
 
 #contact {
-  height: 420px;
+  height: 30em;
   width: 100%;
 }
 
@@ -51,7 +51,7 @@ img {
   background: url(../img/laptop-hero-image.jpg) center no-repeat;
   background-size: cover;
   color: #006666;
-  height: 800px;
+  height: 49em;
 }
 
 header h1, h2 {
@@ -173,7 +173,7 @@ nav {
 }
 
 #more-link {
-  padding-top: 30px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -242,7 +242,8 @@ nav {
 }
 
 #contact ul {
-  list-style: none
+  list-style: none;
+  padding-right: 26px;
 }
 
 #contact ul li {
@@ -330,7 +331,6 @@ nav {
   }
 
   #work .half-width {
-    height: 350px;
     margin-bottom: 50px;
   }
   
@@ -342,7 +342,6 @@ nav {
     background: url(../img/laptop-hero-image.jpg) center no-repeat;
     background-size: cover;
     color: #006666;
-    height: 800px;
   }
 
   .topnav {
@@ -405,12 +404,8 @@ nav {
     width: 70%;
   }
 
-  #work {
-    height: 1600px;
-  }
-
   #work p {
-    padding-right: 10%;
+    padding: 0 10% 20% 0;
     width: 80%;
   }
 
@@ -420,7 +415,7 @@ nav {
   }
 
   #about {
-    height: 1000px;
+    height: 62em;
   }
 
   #about p {
@@ -433,8 +428,9 @@ nav {
   /* Desktop styles here */
 
   #header-wrapper {
-    background: url(../img/laptop-hero-image.jpg);
-    background-size: auto;
+    background: url(../img/laptop-hero-image.jpg) center no-repeat;
+    background-size: cover;
+    height: webkit-fill-available;
   }
 
   header h1 {
