@@ -342,6 +342,7 @@ nav {
     background: url(../img/laptop-hero-image.jpg) center no-repeat;
     background-size: cover;
     color: #006666;
+    height: 55em;
   }
 
   .topnav {
