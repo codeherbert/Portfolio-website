@@ -31,18 +31,13 @@ img {
 }
 
 #contact {
-  height: 30em;
+  height: 33em;
   width: 100%;
 }
 
 .full-width {
   margin: 0 auto;
   width: 100%;
-}
-
-.third-width {
-  width: 33.33%;
-  float: left;
 }
 
 /*****HEADER*****/
@@ -69,8 +64,7 @@ header h1 {
 
 header h2 {
   font-size: 1.4em;
-  letter-spacing: 3px;
-  padding: 6%;
+  padding: 0;
   width: 88%;
 }
 
@@ -147,6 +141,11 @@ nav {
   text-transform: uppercase;
 }
 
+#work h4 {
+  padding: 5%;
+  text-align: center;
+}
+
 #work p {
   margin: 0 auto;
   padding: 5%;
@@ -169,12 +168,13 @@ nav {
 }
 
 #holstee-img {
-  width: 50%;
+  width: 35%;
 }
 
 #more-link {
   padding: 40px;
   text-align: center;
+  clear: both;
 }
 
 #more-link a {
@@ -239,6 +239,7 @@ nav {
 
 #contact p {
   text-decoration: none;
+  line-height: 5px;
 }
 
 #contact ul {
@@ -268,9 +269,12 @@ nav {
 }
 
 #header-title-work {
-  font-size: 1.1em;
-  padding: 80px;
-}
+    font-size: 3.12em;
+    font-weight: bold;
+    line-height: 55px;
+    margin-top: 75px;
+    color: #006666;
+  }
 
 .project-unplugged {
   width: 60%;
@@ -314,6 +318,7 @@ nav {
   background: #009999;
   color: white;
   text-align: center;
+  clear: both;
 }
 
 #workpage-copyright p {
@@ -328,6 +333,11 @@ nav {
     width: 48%;
     padding: 5% 1%;
     float: left;
+  }
+  
+  .third-width {
+  width: 33.33%;
+  float: left;
   }
 
   #work .half-width {
@@ -391,8 +401,13 @@ nav {
     padding-top: 1%;
   }
 
-  header h2 {
-    padding-top: 1%;
+  #home h2 {
+    font-size: 1.85em;
+    padding: 3%;
+  }
+
+  #work h2 {
+    padding: 6%;
     width: 80%;
   }
 
@@ -402,7 +417,7 @@ nav {
 
   .work-img {
     margin: 20px auto;
-    width: 70%;
+    width: 60%;
   }
 
   #work p {
@@ -422,6 +437,30 @@ nav {
   #about p {
     width: 80%;
   }
+
+  #contact p {
+    line-height: normal;
+  }
+
+  /* ========== WORK PAGE ========== */
+
+  #header-title-work {
+    margin-top: 125px;
+  }
+
+  #header-title-work h2 {
+    font-size: 1.3em;
+    padding: 6%;
+  }
+
+  #lolcat-div {
+    clear: both;
+  }
+
+  #decision-div {
+    clear: both;
+  }
+
 }
 
 @media only screen and (min-width: 940px) {
@@ -438,25 +477,23 @@ nav {
     padding: 0;
   }
 
-  header h2 {
-    font-size: 2em;
-  }
-
   #top-div {
     padding: 0 20%;
   }
 
   #work {
     height: auto;
+    max-width: 1440px;
   }
 
   .work-img {
     padding-left: 10%;
-    width: 80%;
+    width: 70%;
   }
 
   #work p {
     padding-right: 10%;
+    line-height: 2.2em;
   }
 
   #about {
@@ -479,21 +516,15 @@ nav {
 
   /* ========== WORK PAGE ========== */
 
-  #header-title-work h1 {
-    font-size: 5em;
-    line-height: 65px;
+  #unplugged-div figure {
+    width: 40%;
   }
 
-  .project-unplugged {
-    width: 25%;
+  #lolcat-div figure {
+    width: 40%;
   }
-
-  .project-lolcat {
-    width: 25%;
-  }
-
-  .project-map {
-    width: 25%;
+  #work h4 {
+    padding: 1% 0 10% 0;
   }
 
   #workpage {
