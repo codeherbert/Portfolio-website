@@ -403,7 +403,7 @@ nav {
 
   #home h2 {
     font-size: 1.85em;
-    padding: 3%;
+    padding: 0.5%;
   }
 
   #work h2 {
@@ -488,7 +488,7 @@ nav {
 
   .work-img {
     padding-left: 10%;
-    width: 70%;
+    width: 60%;
   }
 
   #work p {
