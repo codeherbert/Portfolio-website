@@ -141,6 +141,10 @@ nav {
   text-transform: uppercase;
 }
 
+#work h3:hover {
+  text-decoration: underline;
+}
+
 #work h4 {
   padding: 5%;
   text-align: center;
@@ -167,6 +171,10 @@ nav {
   text-decoration: none;
 }
 
+#remove-decor:hover {
+  text-decoration: underline;
+}
+
 #holstee-img {
   width: 35%;
 }
@@ -179,6 +187,14 @@ nav {
 
 #more-link a {
   text-decoration: none;
+  color: #006666;
+  font-size: 1.2em;
+  transition: 0.5s;
+}
+
+#more-link a:hover {
+  background-color: #006666;
+  color: white;
 }
 
 /*****ABOUT*****/
@@ -235,6 +251,12 @@ nav {
 #contact a {
   color: white;
   padding: 5%;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #bdbf09;
 }
 
 #contact p {
@@ -395,6 +417,11 @@ nav {
 
   nav ul li a {
     color: #006666;
+  }
+
+  nav ul li a:hover {
+    color: #06a7a7;
+    font-size: 110%;
   }
 
   header h1 {
