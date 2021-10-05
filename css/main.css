@@ -160,10 +160,18 @@ nav {
   width: 60%;
   margin: auto;
   margin-top: 135px;
-  }
+}
+
+#work img {
+  border-radius: 7px;
+  border: 1px solid #b7b7b7;
+  box-shadow: 6px 8px 25px #888888;
+}
 
 #work .border {
+  border-radius: 7px;
   border: 1px solid #b7b7b7;
+  box-shadow: 6px 8px 25px #888888;
 }
 
 #remove-decor {
@@ -190,6 +198,7 @@ nav {
   color: #006666;
   font-size: 1.2em;
   transition: 0.5s;
+  border-radius: 4px;
 }
 
 #more-link a:hover {
@@ -272,6 +281,10 @@ nav {
 #contact ul li {
   display: inline-block;
   padding-right: 15px;
+}
+
+#contact img:hover {
+  filter: brightness(125%);
 }
 
 /*****COPYRIGHT*****/
@@ -480,14 +493,9 @@ nav {
     padding: 6%;
   }
 
-  #lolcat-div {
+  #lolcat-div, #chee-z-jokes-div, #decision-div, #lights-out-div {
     clear: both;
   }
-
-  #decision-div {
-    clear: both;
-  }
-
 }
 
 @media only screen and (min-width: 940px) {
