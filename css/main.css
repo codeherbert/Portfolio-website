@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: 'Rhodium Libre', serif;
+  font-family: "Rhodium Libre", serif;
   font-size: 16px;
   height: 100%;
 }
@@ -16,6 +16,10 @@ main {
 img {
   width: 100%;
   height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*****GRID*****/
@@ -49,14 +53,15 @@ img {
   height: 49em;
 }
 
-header h1, h2 {
-  font-family: 'Rationale', sans-serif;
+header h1,
+h2 {
+  font-family: "Rationale", sans-serif;
   margin: 0px auto;
   text-align: center;
 }
 
 header h1 {
-  color:#006666;
+  color: #006666;
   font-size: 3.12em;
   line-height: 45px;
   padding: 3%;
@@ -101,13 +106,17 @@ nav {
   display: none;
 }
 
-.topnav a:not(:first-child) {display: none}
+.topnav a:not(:first-child) {
+  display: none;
+}
 .topnav a.icon {
   float: right;
   display: block;
-  }
+}
 
-.topnav.responsive {position: relative}
+.topnav.responsive {
+  position: relative;
+}
 .topnav.responsive a.icon {
   position: absolute;
   right: 0;
@@ -118,8 +127,7 @@ nav {
   float: none;
   display: block;
   text-align: left;
-  }
-
+}
 
 /*****WORK*****/
 
@@ -128,14 +136,14 @@ nav {
 }
 
 #work h2 {
-  font-family: 'Rationale', sans-serif;
+  font-family: "Rationale", sans-serif;
   font-size: 3.12em;
   font-weight: bold;
   margin-top: 75px;
 }
 
 #work h3 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -166,12 +174,19 @@ nav {
   border-radius: 7px;
   border: 1px solid #b7b7b7;
   box-shadow: 6px 8px 25px #888888;
+  transition: all 0.4s ease-in-out;
 }
 
-#work .border {
+#work .work-img img {
   border-radius: 7px;
   border: 1px solid #b7b7b7;
   box-shadow: 6px 8px 25px #888888;
+}
+
+@media only screen and (min-width: 768px) {
+  #work .work-img img:hover {
+    width: 110%;
+  }
 }
 
 #remove-decor {
@@ -198,12 +213,35 @@ nav {
   color: #006666;
   font-size: 1.2em;
   transition: 0.5s;
-  border-radius: 4px;
+  border: 3px solid #006666;
+  border-radius: 30px;
+  padding: 15px;
 }
 
 #more-link a:hover {
   background-color: #006666;
   color: white;
+}
+
+#more-link a:after {
+  content: ">";
+  position: relative;
+  color: #006666;
+  font-size: 30px;
+  transition: 0.5s;
+  transform: translatey(-50%);
+  right: -5px;
+  top: 1px;
+}
+
+#more-link a:hover:after {
+  color: #fff;
+  transition: 0.5s;
+  right: -12px;
+}
+
+#work h3#more-link:hover {
+  text-decoration: none;
 }
 
 /*****ABOUT*****/
@@ -213,7 +251,9 @@ nav {
   padding-bottom: 60px;
 }
 
-#about h2, #about h3, #about p {
+#about h2,
+#about h3,
+#about p {
   color: white;
   text-align: center;
 }
@@ -225,7 +265,7 @@ nav {
 }
 
 #about h2 {
-  font-family: 'Rationale', sans-serif;
+  font-family: "Rationale", sans-serif;
   font-size: 2.5em;
   padding: 4%;
   text-align: center;
@@ -242,6 +282,13 @@ nav {
   margin: 0 auto;
 }
 
+#portrait-img img {
+  border: 1px solid #fff;
+  -moz-box-shadow: 2px 2px 6px #ccc;
+  box-shadow: 2px 2px 6px #ccc;
+  border-radius: 5px;
+}
+
 /*****CONTACT*****/
 
 #contact {
@@ -252,7 +299,7 @@ nav {
 }
 
 #contact h2 {
-  font-family: 'Rationale', sans-serif;
+  font-family: "Rationale", sans-serif;
   font-size: 2.5em;
   padding: 4%;
 }
@@ -304,12 +351,12 @@ nav {
 }
 
 #header-title-work {
-    font-size: 3.12em;
-    font-weight: bold;
-    line-height: 55px;
-    margin-top: 75px;
-    color: #006666;
-  }
+  font-size: 3.12em;
+  font-weight: bold;
+  line-height: 55px;
+  margin-top: 75px;
+  color: #006666;
+}
 
 .project-unplugged {
   width: 60%;
@@ -337,7 +384,7 @@ nav {
 }
 
 .workpage-titles {
-  font-family: 'Rationale', sans-serif;
+  font-family: "Rationale", sans-serif;
   font-size: 2.5em;
   font-weight: bold;
   margin: 80px 0 45px 0;
@@ -361,27 +408,26 @@ nav {
 }
 
 @media only screen and (min-width: 768px) {
-
   /* Tablet styles here */
- 
+
   .half-width {
     width: 48%;
     padding: 5% 1%;
     float: left;
   }
-  
+
   .third-width {
-  width: 33.33%;
-  float: left;
+    width: 33.33%;
+    float: left;
   }
 
   #work .half-width {
     margin-bottom: 50px;
   }
-  
+
   #about .half-width {
     margin: 0 auto;
-  }  
+  }
 
   #header-wrapper {
     background: url(../img/laptop-hero-image.jpg) center no-repeat;
@@ -430,12 +476,30 @@ nav {
 
   nav ul li a {
     color: #006666;
+    position: relative;
   }
 
-  nav ul li a:hover {
+  nav ul li a:before {
+    content: "";
+    transition: width 400ms ease;
+    position: absolute;
+    display: block;
+    background-color: #006666;
+    width: 0;
+    height: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  nav ul li a:hover:before {
+    width: 100%;
+  }
+
+  /* nav ul li a:hover {
     color: #06a7a7;
     font-size: 110%;
-  }
+  } */
 
   header h1 {
     padding-top: 1%;
@@ -493,13 +557,15 @@ nav {
     padding: 6%;
   }
 
-  #lolcat-div, #chee-z-jokes-div, #decision-div, #lights-out-div {
+  #lolcat-div,
+  #chee-z-jokes-div,
+  #decision-div,
+  #lights-out-div {
     clear: both;
   }
 }
 
 @media only screen and (min-width: 940px) {
-
   /* Desktop styles here */
 
   #header-wrapper {
@@ -564,5 +630,5 @@ nav {
 
   #workpage {
     padding-top: 20px;
-    }
+  }
 }
