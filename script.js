@@ -16,3 +16,14 @@ copyrightYearArray = [...copyrightYear];
 copyrightYearArray.forEach(function(element) {
     element.textContent = date;
 });
+
+// adds class to fixed nav to be styled
+var navbar = document.querySelector('nav');
+window.onscroll = function() {
+  // pageYOffset 
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('scrolled')
+  } else {
+    navbar.classList.remove('scrolled')
+  }
+};

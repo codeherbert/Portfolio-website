@@ -129,6 +129,27 @@ nav {
   text-align: left;
 }
 
+nav {
+  transition: background 0.8s;
+}
+
+nav.scrolled {
+  background: #0a0a0a;
+  background: #009999;
+  position: fixed;
+  top: 0;
+  height: 48px;
+  width: 100%;
+}
+
+nav.scrolled a {
+  color: #fff;
+}
+
+nav.scrolled a:before {
+  background-color: #fff;
+}
+
 /*****WORK*****/
 
 #work {
