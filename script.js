@@ -18,7 +18,7 @@ copyrightYearArray.forEach(function(element) {
 });
 
 // adds class to fixed nav to be styled
-var navbar = document.querySelector('nav');
+const navbar = document.querySelector('nav');
 window.onscroll = function() {
   // pageYOffset 
   if (window.pageYOffset > 0) {
