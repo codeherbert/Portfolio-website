@@ -130,13 +130,12 @@ nav {
 }
 
 nav {
-  transition: background 0.8s;
+  transition: background 1s;
 }
 
 nav.scrolled {
   background: #0a0a0a;
   background: #009999;
-  position: fixed;
   top: 0;
   height: 48px;
   width: 100%;
@@ -462,12 +461,13 @@ nav.scrolled a:before {
   }
 
   nav {
+    background-color: #7576693d;
     display: inline-block;
     font-size: 1em;
     font-weight: bold;
+    position: fixed;
     text-align: right;
     width: 100%;
-    background-color: #7576693d;
   }
 
   nav ul {
@@ -523,7 +523,7 @@ nav.scrolled a:before {
   } */
 
   header h1 {
-    padding-top: 1%;
+    padding-top: 50px;
   }
 
   #home h2 {
@@ -596,7 +596,7 @@ nav.scrolled a:before {
   }
 
   header h1 {
-    padding: 0;
+    padding: 50px 0 0;
   }
 
   #top-div {
