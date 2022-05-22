@@ -51,6 +51,8 @@ html {
   background-size: cover;
   color: #006666;
   height: 49em;
+  position: relative;
+  top: 54px;
 }
 
 header h1,
@@ -65,6 +67,7 @@ header h1 {
   font-size: 3.12em;
   line-height: 45px;
   padding: 3%;
+  padding-top: 25px;
 }
 
 header h2 {
@@ -80,6 +83,9 @@ nav {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .topnav a {
@@ -115,7 +121,7 @@ nav {
 }
 
 .topnav.responsive {
-  position: relative;
+  position: fixed;
 }
 .topnav.responsive a.icon {
   position: absolute;
@@ -130,7 +136,7 @@ nav {
 }
 
 nav {
-  transition: background 1s;
+  transition: background 0.8s;
 }
 
 nav.scrolled {
@@ -517,6 +523,10 @@ nav.scrolled a:before {
     width: 100%;
   }
 
+  .topnav.responsive {
+    position: relative;
+  }
+
   /* nav ul li a:hover {
     color: #06a7a7;
     font-size: 110%;
@@ -538,6 +548,7 @@ nav.scrolled a:before {
 
   #top-div {
     background: none;
+    position: static;
   }
 
   .work-img {
@@ -596,7 +607,7 @@ nav.scrolled a:before {
   }
 
   header h1 {
-    padding: 50px 0 0;
+    padding: 60px 0 0;
   }
 
   #top-div {
