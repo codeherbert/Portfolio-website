@@ -22,6 +22,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.wai {
+  border: 0 !important;
+  border-color: transparent !important;
+  background: transparent !important;
+  position: absolute !important;
+  height: 1px !important;
+  width: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  white-space: nowrap !important;
+}
+
 /*****GRID*****/
 
 #work {
