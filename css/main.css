@@ -552,11 +552,6 @@ nav.scrolled a:before {
     position: relative;
   }
 
-  /* nav ul li a:hover {
-    color: #06a7a7;
-    font-size: 110%;
-  } */
-
   header h1 {
     padding-top: 50px;
   }
@@ -606,8 +601,6 @@ nav.scrolled a:before {
   #contact p {
     line-height: normal;
   }
-
-  /* ========== WORK PAGE ========== */
 
   #header-title-work {
     margin-top: 125px;
@@ -679,8 +672,6 @@ nav.scrolled a:before {
     margin: 20px auto;
     padding-bottom: 0px;
   }
-
-  /* ========== WORK PAGE ========== */
 
   #portfolio header h1 {
     padding-top: 115px;
