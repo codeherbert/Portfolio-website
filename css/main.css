@@ -157,7 +157,7 @@ nav {
 }
 
 nav {
-  transition: background 0.8s;
+  transition: background-color 800ms linear;
 }
 
 nav.scrolled {
